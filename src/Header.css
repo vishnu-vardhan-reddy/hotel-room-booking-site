@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.header__icon{
+    object-fit: contain;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.header__center{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header__center > input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+}
+
+.header__center:hover >input{
+    width: 400px;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 50px;
+}
+
+.header__right > .MuisvgIcon-root{
+    font-size: medium;
+}

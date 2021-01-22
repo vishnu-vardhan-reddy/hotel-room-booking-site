@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    transition: transform 100ms ease-in;
+}
+.card >img{
+    object-fit: fill;
+   min-width: 300px;
+   min-height: 150px;
+}
+
+.card:hover {
+    transform: scale(1.09);
+}
+.card__info{
+    margin-top: 10px;
+}
+
+.card__info > h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card__info >h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
